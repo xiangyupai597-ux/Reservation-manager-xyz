@@ -1,0 +1,11 @@
+.vs/
+bin/
+obj/
+.codex-tmp/
+commonlibdll/
+x64/
+Debug/
+Release/
+*.vcxproj.user
+*.user
+study_room_data.json
