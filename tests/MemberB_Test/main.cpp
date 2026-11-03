@@ -145,7 +145,7 @@ int main(int argc, char *argv[])
            "administrator can query all reservations");
 
     const OperationResult reuseSeat =
-        manager.createReservation(student2, 1, start, end, now);
+        manager.createReservation(student1, 1, start, end, now);
     expect(reuseSeat.ok, "cancelled reservation releases seat");
 
     const QDateTime normalized = toMinute(
